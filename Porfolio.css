@@ -1,0 +1,96 @@
+#body {
+  background-color: #ecffb3;
+}
+
+.vertical-navigation-bar {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.name-pic {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+}
+
+.full-name {
+  display: inline-block;
+  float: right;
+  margin-top: 80px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.left-image {
+  display: inline;
+  margin-left: 60px;
+  height: 200px;
+  border-radius: 30%;
+}
+
+.container {
+  border-radius: 30px;
+  color: #663300;
+  background-color: #f2f2f2;
+  font-size: 18px;
+  font-family: Ubuntu;
+  text-align: justify;
+  margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #996633;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #996633;
+}
+
+
+
+.four-main {
+
+}
+
+#About {
+    height: 500px;
+
+
+}
+
+#Porfolio {
+  height: 500px;
+
+}
+
+#Social {
+  height: 250px;
+
+}
+
+#Hobby {
+  height: 300px;
+
+}
+
+.link-icon {
+  font-size:46px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
