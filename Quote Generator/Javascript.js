@@ -40,7 +40,7 @@ var quotes = []
 39. I don’t mind what Congress does, as long as they don’t do it in the streets and frighten the horses.
 —Victor Hugo
 40. I took a speed reading course and read ‘War and Peace’ in twenty minutes. It involves Russia.
-—Woody Allen
+—Woody Allen.
 
 
 function newQuote() {
