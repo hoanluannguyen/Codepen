@@ -1,2 +1,23 @@
-<h1>Mailing to Recruitor</h1>
-<
+body {
+    background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/10/nhung-buc-anh-suong-mu-day-huyen-ao-1.jpg)
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-style: inherit;
+    text-size: 30px;
+    text-weight: bold;
+    font-family: Ubuntu;
+    
+
+
+
+}
+
+div {
+    background-color: lightblue;
+}
+
+p {
+    background-color: yellow;
+}
