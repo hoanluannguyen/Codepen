@@ -1,16 +1,12 @@
 /* var randomNumber = Math.floor(Math.random() * 20);
 */
-var quotes = []
-01. Only I can change my life. No one can do it for me. Carol Burnett
-21. Before I got married I had six theories about bringing up children; now I have six children and no theories.
-—John Wilmot
-22. What the world needs is more geniuses with humility, there are so few of us left.
-—Oscar Levant
-23. Always forgive your enemies; nothing annoys them so much.
-—Oscar Wilde
-24. I’ve gone into hundreds of [fortune-teller’s parlors], and have been told thousands of things, but nobody ever told me I was a policewoman getting ready to arrest her.
-—New York City detective
-25. When you go into court you are putting your fate into the hands of twelve people who weren’t smart enough to get out of jury duty.
+var quotes = [
+'01. Only I can change my life. No one can do it for me. Carol Burnett',
+'21. Before I got married I had six theories about bringing up children; now I have six children and no theories. John Wilmot',
+'22. What the world needs is more geniuses with humility, there are so few of us left. Oscar Levant',
+'23. Always forgive your enemies; nothing annoys them so much. Oscar Wilde'
+'24. I’ve gone into hundreds of [fortune-teller’s parlors], and have been told thousands of things, but nobody ever told me I was a policewoman getting ready to arrest her. New York City detective',
+/*25. When you go into court you are putting your fate into the hands of twelve people who weren’t smart enough to get out of jury duty.
 —Norm Crosby
 26. Those who believe in telekinetics, raise my hand.
 —Kurt Vonnegut
@@ -41,11 +37,13 @@ var quotes = []
 39. I don’t mind what Congress does, as long as they don’t do it in the streets and frighten the horses.
 —Victor Hugo
 40. I took a speed reading course and read ‘War and Peace’ in twenty minutes. It involves Russia.
-—Woody Allen.
+—Woody Allen.*/
+]
 
 
 function newQuote() {
 var randomNumber = Math.floor(Math.random() * (quotes.length));
-}
+
 
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
