@@ -1,5 +1,4 @@
-/* var randomNumber = Math.floor(Math.random() * 20);
-*/
+
 var quotes = [
 '01. Only I can change my life. No one can do it for me. Carol Burnett',
 '21. Before I got married I had six theories about bringing up children; now I have six children and no theories. John Wilmot',

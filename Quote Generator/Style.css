@@ -1,5 +1,9 @@
+
 body {
-    background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/10/nhung-buc-anh-suong-mu-day-huyen-ao-1.jpg)
+    background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/10/nhung-buc-anh-suong-mu-day-huyen-ao-1.jpg);
+  background-repeat: no-repeat;
+
+
 }
 h1 {
     text-align: center;
