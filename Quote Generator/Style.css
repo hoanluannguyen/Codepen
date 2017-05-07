@@ -1,8 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
-body {
-    background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/10/nhung-buc-anh-suong-mu-day-huyen-ao-1.jpg);
+#quoteDisplay{
+    color:white;
+    font-family: Ubuntu;
+    text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {   background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/10/nhung-buc-anh-suong-mu-day-huyen-ao-1.jpg), url(http://i.huffpost.com/gen/1846574/images/o-SAN-FRANCISCO-FOG-facebook.jpg), url(http://cityhub.movoto.com/1459257834888_willow-glen-san-jose-an-inescapable-lure-featured.jpg);
   background-repeat: no-repeat;
-
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 
 }
 h1 {
@@ -10,11 +22,55 @@ h1 {
     color: white;
     text-weight: bold;
     font-family: Ubuntu;
-    padding-top: 200px;
+    padding-top: 100px;
 }
-button {
-    background-color: yellow;
-    font-family: Ubuntu;
-    font-size: 20px;
 
+p {
+    text-align: center;
+    color: white;
+    text-weight: normal;
+    font-family: Ubuntu;
+    padding-bottom: 50px;
+
+}
+.button {
+    background-color: Transparent;
+
+    border-radius: 10px;
+    color: brown;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+  font-family: Ubuntu;
+  font-size: 20px;
+
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  margin-top: 50px;
+
+
+}
+.button:hover {
+  background-color: brown;
+    color: white;
+}
+
+.link-icon {
+  font-size: 30px;
+}
+footer {
+  padding-top: 120px;
+  font-size:16px;
+  text-align: center;
+}
+a {
+    color: white;
 }
