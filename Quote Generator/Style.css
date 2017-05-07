@@ -4,20 +4,13 @@ body {
 h1 {
     text-align: center;
     color: white;
-    font-style: inherit;
-    text-size: 30px;
     text-weight: bold;
     font-family: Ubuntu;
-    
-
-
-
+    padding-top: 200px;
 }
-
-div {
-    background-color: lightblue;
-}
-
-p {
+button {
     background-color: yellow;
+    font-family: Ubuntu;
+    font-size: 20px;
+
 }
