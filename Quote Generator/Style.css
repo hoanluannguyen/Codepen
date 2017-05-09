@@ -2,7 +2,7 @@
 
 #quoteDisplay{
     color:white;
-    font-family: Ubuntu;
+    font-family: "Ubuntu";
     text-align: center;
 }
 
@@ -20,16 +20,16 @@ body {   background-image: url(http://hinhanhdephot.com/wp-content/uploads/2014/
 h1 {
     text-align: center;
     color: white;
-    text-weight: bold;
-    font-family: Ubuntu;
+    font-weight: bold;
+    font-family: "Ubuntu";
     padding-top: 100px;
 }
 
 p {
     text-align: center;
     color: white;
-    text-weight: normal;
-    font-family: Ubuntu;
+    font-weight: normal;
+    font-family: "Ubuntu";
     padding-bottom: 50px;
 
 }
@@ -48,7 +48,7 @@ p {
     cursor: pointer;
 
 
-  font-family: Ubuntu;
+  font-family: "Ubuntu";
   font-size: 20px;
 
   margin-left:auto;
