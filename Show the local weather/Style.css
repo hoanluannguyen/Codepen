@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-
 html {
   height: 100%;
-
-
 }
+
 body {
+  background-image:url("http://www.almanac.com/sites/default/files/image_nodes/thanksgiving-weather.jpg");
   text-align: center;
   height: 100%;
   text-align: center;
@@ -16,12 +15,11 @@ body {
 }
 
 footer {
-  font-size:16px;
+  font-size: 16px;
   position: absolute;
   text-align: center;
   bottom: 0px;
   width: 100%;
-
 }
 
 .link-icon {
@@ -29,5 +27,9 @@ footer {
 }
 
 a {
-    color: grey;
+  color: grey;
+}
+
+li {
+  text-align: left;
 }
