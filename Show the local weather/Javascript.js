@@ -36,7 +36,7 @@ $(document).ready(function() {
     var windSpeed = data.wind.speed;
     var city = data.name;
 
-    fTemp = kTemp * (9 / 5) - 459.67.toFixed(1);
+    fTemp = (kTemp * (9 / 5) - 459.67).toFixed(1);
     cTemp = (kTemp - 273).toFixed(1);
 // .toFixed(2) to round number to 1 decimal
     console.log(city);
