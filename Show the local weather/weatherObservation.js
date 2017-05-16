@@ -1,15 +1,5 @@
 $(document).ready(function() {
- /* if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var long;
-      var lat;
 
-      long = position.coords.longitude;
-      console.log(long);
-      lat = position.coords.latitude;
-  */
-
-  //    $("#data").html("latitude: " + lat + "<br>longitude: " + long);
  var lat;
   var long;
   $.getJSON("http://ip-api.com/json",function(data2){
@@ -22,8 +12,6 @@ $(document).ready(function() {
     long +
     "&appid=ee3db4c3a2271806fd163fcdbcd96c01";
 
- // the alternative one below:
- //var api = 'http://api.openweathermap.org/data/2.5/weather?id=2172797&appid=ee3db4c3a2271806fd163fcdbcd96c01';
 
   $.getJSON(api, function(data) {
     var fTemp;
