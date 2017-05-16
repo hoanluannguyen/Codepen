@@ -48,6 +48,9 @@ windSpeed = (2.237*(windSpeed)).toFixed(1);
     if(fTemp>80){
      $('body').css('background-image','url(http://www.mrwallpaper.com/wallpapers/Sunny-Summer-Day.jpg)');
     }
+    else if(fTemp>75) {
+      $('body').css('background-image','url(https://s-media-cache-ak0.pinimg.com/originals/5b/d4/2f/5bd42fdae909fa580858ba6fc024f427.jpg)');
+    }
     else if(fTemp>70) {
       $('body').css('background-image','url(http://www.almanac.com/sites/default/files/image_nodes/thanksgiving-weather.jpg)');
     }
