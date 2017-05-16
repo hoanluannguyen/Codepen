@@ -4,7 +4,8 @@ html {
 }
 
 body {
-    background-image: url("http://www.almanac.com/sites/default/files/image_nodes/thanksgiving-weather.jpg");
+background-image: url("https://s-media-cache-ak0.pinimg.com/originals/5b/d4/2f/5bd42fdae909fa580858ba6fc024f427.jpg");
+    /*background-image: url("http://www.almanac.com/sites/default/files/image_nodes/thanksgiving-weather.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
