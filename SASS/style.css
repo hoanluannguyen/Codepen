@@ -1,13 +1,14 @@
-.class_1 {
-  color: #f94342;
-  font-weight: bold;
-  padding: 15px;
-  margin: 5px; }
-  .class_1 a {
-    color: #fff;
-    text-decoration: underline; }
-    .class_1 a:hover, .class_1 a:visited {
-      color: #f3f3f3;
-      text-decoration: none; }
+/*
+https://thachpham.com/web-development/html-css/huong-dan-su-dung-sass-de-viet-css.html
+*/
+.menu_container ul {
+  background: black; }
+  .menu_container ul li {
+    color: red; }
+    .menu_container ul li a {
+      color: blue; }
+    .menu_container ul li:a {
+      color: lightblue;
+      text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
