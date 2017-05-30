@@ -3,10 +3,6 @@ html {
     height: 100%;
 }
 
-h5 {
-  padding-top: 36%;
-
-}
 body {
 /*
     background-image: //url("http://static.wixstatic.com/media/e68a9c_1bbb86fc603f4eefa7b4adb7ed481aed~mv2_d_2105_2101_s_2.jpg");
@@ -39,8 +35,8 @@ a {
     color: black;
 }
 
-ul {
-    color: white;
+ul li {
+    color: orange;
 }
 
 img {
