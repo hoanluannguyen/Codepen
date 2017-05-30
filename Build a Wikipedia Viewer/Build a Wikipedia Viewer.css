@@ -3,14 +3,18 @@ html {
     height: 100%;
 }
 
+h5 {
+  padding-bottom: 100px;
+}
+
 body {
-/*
-    background-image: //url("http://static.wixstatic.com/media/e68a9c_1bbb86fc603f4eefa7b4adb7ed481aed~mv2_d_2105_2101_s_2.jpg");
+    background-image: url("https://fsb.zobj.net/crop.php?r=OfPWYXeIfjoX_t8V4ydQBS5SIoYn23iojQOj9EaJOxzYOQxwce-9vZfbHkio5Pp05aoljYiYinSo2o2rDK9zwmM6vrbYUxxJdfNOCR2patjYzbQnaMiecT_Z58Pbd5KW-5I_VG7lNpXjHPTrLL5j4X0maQN7mhHysBJYRQ");
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    background-size: 30%;
-*/
-  text-align: center;
+    background-size: 100%;
+
+  text-align: left;
     height: 100%;
     text-align: center;
     color: gray;
@@ -27,6 +31,7 @@ footer {
     width: 100%;
 }
 
+}
 .link-icon {
     font-size: 30px;
 }
