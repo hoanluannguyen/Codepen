@@ -48,9 +48,12 @@ img {
 }
 
 .shadowBox {
-background-color:LightGrey;
+background-color: #cceeff;
 /*make sure words wrap and don't go beyond the borders of the well*/
 word-wrap: break-word;
+border-radius: 10px;
+border-bottom: 6px outset #000099;
+margin-bottom: 20px;
 }
 
 }
