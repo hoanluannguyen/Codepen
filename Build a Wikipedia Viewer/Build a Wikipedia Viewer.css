@@ -47,6 +47,11 @@ img {
     width: 250px;
 }
 
+.shadowBox {
+background-color:LightGrey;
+/*make sure words wrap and don't go beyond the borders of the well*/
+word-wrap: break-word;
+}
 
 }
 .link-icon {

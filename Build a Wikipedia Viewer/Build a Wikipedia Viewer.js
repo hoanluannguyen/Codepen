@@ -11,9 +11,14 @@ $(document).ready(function(){
      success: function(data){
        $('#output').html('');
        for (i=0; i<data[1].length; i++){
-      $('#output').append("<li><a href="+data[3][i]+" target='_blank'>"+data[1][i]+"</a><p>"+data[2][i]+"</p></li>");
-       }
-     },
+ $('#output').append("<div class='shadowBox'><li><a href="+data[3][i]+" target='_blank'>"+data[1][i]+"</a><p>"+data[2][i]+"</p></li></div>");
+  }
+},
+// class ='shadowBox' to change background color and justify back ground
+error: function(errorMessage){
+  alert('Error');
+  // need debug
+}
      error: function(errorMessage){
        alert('Error');
        // need debug
