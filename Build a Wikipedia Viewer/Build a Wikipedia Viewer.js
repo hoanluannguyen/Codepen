@@ -39,7 +39,6 @@ $(document).ready(function() {
            });
        });
    });
-
  function processResult(apiResult){
     for (var i = 0; i < apiResult.query.search.length; i++){
          $('#display-result').append('<p>'+apiResult.query.search[i].title+'</p>');
