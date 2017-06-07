@@ -1,63 +1,66 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-/*
 html {
-    height: 100%;
-    box-sizing: border-box;
+  height: 100%;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-h5 {
-    padding-bottom: 100px;
-}
 
 body {
-    background-image: url("https://fsb.zobj.net/crop.php?r=OfPWYXeIfjoX_t8V4ydQBS5SIoYn23iojQOj9EaJOxzYOQxwce-9vZfbHkio5Pp05aoljYiYinSo2o2rDK9zwmM6vrbYUxxJdfNOCR2patjYzbQnaMiecT_Z58Pbd5KW-5I_VG7lNpXjHPTrLL5j4X0maQN7mhHysBJYRQ");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
-    position: relative;
-    margin: 0;
-    height: 100%;
-    text-align: center;
-    color: #0066cc;
-    font-family: "Ubuntu";
-    padding-top: 10px;
-    margin-bottom: 50px;
+    background-image: url("http://st.gde-fon.com/wallpapers_original/337004_abstrakciya_stil_kuby_golovolomka_2560x1600_www.Gde-Fon.com.jpg");
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  color: #0066cc;
+  font-family: "Ubuntu";
+  padding-top: 10px;
+  margin-bottom: 50px;
 }
 
-a {
-    color: black;
-    text-align: center;
+.container {
+  color: white;
+  font-family: "Ubuntu";
+
 }
 
-ul {
-    list-style-type: none;
-}
+#header {
+  background: rgba(0,0,0,0.5);
 
-li {
-    color: #003399;
-    text-align: left;
 }
+/* make the background of header become darker*/
 
 img {
-    height: 250px;
-    width: 250px;
+  border-radius: 50%;
+  width: 200px;
 }
 
+.col-md-4 {
+  padding: 5px;
+}
+
+.row {
+  background: rgba(0,0,0,0.30);
+  margin-bottom: 10px;
+
+}
 
 }
 .link-icon {
     font-size: 30px;
 }
+
+
 .footer {
-    font-size: 16px;
-    position: fixed;
-    text-align: center;
-    bottom: 0px;
-    width: 100%;
+  font-size: 16px;
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+
 }
-*/
