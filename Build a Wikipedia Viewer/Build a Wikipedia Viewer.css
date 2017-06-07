@@ -34,7 +34,14 @@ ul {
   list-style-type: none;
 }
 
-li .form-control {
+.form-control {
+  color: #003399;
+  text-align: left;
+  width: 80%; /* to adjust width of input bar*/
+  margin-left: 10%;
+
+}
+li {
   color: #003399;
   text-align: left;
 }
@@ -46,14 +53,18 @@ img {
 
 #searchBtn {
   margin-bottom: 20px;
+
   border: 15px black;
 }
 .shadowBox {
-background-color: #cceeff;
-/*make sure words wrap and don't go beyond the borders of the well*/
+color: white;
+background: rgba(0,0,0,0.3);
+/*
+to make the back ground fog;
+make sure words wrap and don't go beyond the borders of the well*/
 word-wrap: break-word;
 border-radius: 10px;
-border-bottom: 6px outset #000099;
+border-bottom: 3px outset #000099;
 margin-bottom: 20px;
 }
 
