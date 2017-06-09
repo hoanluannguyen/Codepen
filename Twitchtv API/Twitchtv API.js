@@ -53,15 +53,11 @@ $(document).ready(function(){
       error: function(data3){  //logo = 'http://web.vmc3.com/projects/bufs/branch/marines/logos/NoLogo.jpg';
         var logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeF9yiuuOJBNO8VpXsVp2VQIpBSTPdLKW6uB3AI-jmSX9G74bX1g";
         var displayName = data3.statusText;
-        console.log(data3.statusText
-                    );
         var status = data3.status;
       $("#followerInfo").prepend("<div class = 'row'>" + "<div class='col-md-4'>" +
                                  "<img src='" + logo + "'>"
                                     +
-                                     "</div>" + "<div class='col-md-4'>" + displayName + "</div>" + "<div class='col-md-4'>"
-                                    + status + "</div></div>");
-
+                                 "</div>" + "<div class='col-md-4'>" + displayName + "</div>" + "<div class='col-md-4'>" + status + "</div></div>");
       }
     });
 
