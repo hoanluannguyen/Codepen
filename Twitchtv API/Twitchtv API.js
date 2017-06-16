@@ -20,12 +20,16 @@ $(document).ready(function(){
            }
       });
 
- $.ajax({
-    type: "GET",
-    url: "https://api.twitch.tv/kraken/streams/freecodecamp",
-    headers: {
-     'Client-ID': 'afe431x90gpkl6o4ra4u65undxiehd'
-  },
+      $.ajax({
+         type: "GET",
+         url: "https://api.twitch.tv/kraken/streams/kindafunnygames",
+         headers: {
+          'Client-ID': 'afe431x90gpkl6o4ra4u65undxiehd'
+       },
+       // after change another channel, its work!!!
+       // try to find down data2
+       // keep using console.log to test every single step
+       
    success: function(data2){
      for (var i = 0; i < data2.follows.length; i++) {
 
