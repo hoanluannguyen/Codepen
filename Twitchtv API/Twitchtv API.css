@@ -26,7 +26,19 @@ body {
 .container {
   color: white;
   font-family: "Ubuntu";
+  font-weight: regular;
+}
 
+.switch-field {
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: regular;
+  font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 #header {
